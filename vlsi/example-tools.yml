@@ -7,8 +7,6 @@ vlsi.core.synthesis_tool: "hammer.synthesis.genus"
 synthesis.genus.genus_bin: "/share/instsww/cadence/DDI221/GENUS221/bin/genus"
 # Innovus options
 vlsi.core.par_tool: "hammer.par.innovus"
-par.innovus.innovus_bin: "/share/instsww/cadence/DDI221/INNOVUS221/bin/innovus"
-par.innovus.design_flow_effort: "standard"
 par.inputs.gds_merge: true
 # Pegasus options
 vlsi.core.drc_tool: "hammer.drc.pegasus"
