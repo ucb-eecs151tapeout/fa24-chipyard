@@ -6,15 +6,16 @@ vlsi.core.max_threads: 12
 
 # Technology paths
 technology.sky130:
-  sky130A: "/home/ff/eecs251b/sky130/sky130A"  
-  sram22_sky130_macros: "/home/ff/eecs251b/sky130/sram22_sky130_macros"  
+  #sky130A: "/home/ff/eecs251b/sky130/sky130A"  
+  #sram22_sky130_macros: "/home/ff/eecs251b/sky130/sram22_sky130_macros"  
   drc_blackbox_srams: true
   lvs_blackbox_srams: true
-  sky130_cds: "/home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123"
+  #sky130_cds: "/home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123"
 
 # SRAM compiler options
 vlsi.core.sram_generator_tool: "hammer.technology.sky130.sram_compiler"
 
+# TODO: fix the spice netlists for these SRAMS they currently reference rahul's bwrc nfs 
 # vlsi.technology.extra_libraries:
 #   - library:
 #       nldm_liberty_file: "/scratch/eecs251b-aae/chipyard/vlsi/macros/sram22_64x32m4w32_macro/sram22_64x32m4w32_macro_tt_025C_1v80.rc.lib"
