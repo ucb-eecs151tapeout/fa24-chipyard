@@ -148,12 +148,6 @@
 [submodule "tools/firrtl2"]
 	path = tools/firrtl2
 	url = https://github.com/ucb-bar/firrtl2.git
-[submodule "vlsi/hammer-synopsys-plugins"]
-	path = vlsi/hammer-synopsys-plugins
-	url = /home/ff/eecs251b/sp24-workspace/hammer-synopsys-plugins
-[submodule "vlsi/hammer-mentor-plugins"]
-	path = vlsi/hammer-mentor-plugins
-	url = /home/ff/eecs251b/sp24-workspace/hammer-mentor-plugins
 [submodule "vlsi/fa24-hammer"]
 	path = vlsi/hammer
 	url = git@github.com:ucb-eecs151tapeout/fa24-hammer.git
